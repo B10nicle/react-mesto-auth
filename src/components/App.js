@@ -131,7 +131,7 @@ function App() {
             .then((data) => {
                 if (data) {
                     setIsInfoTooltipSuccess(true);
-                    history.push("/sing-in");
+                    history.push("/sign-in");
                 }
             })
             .catch((err) => {
