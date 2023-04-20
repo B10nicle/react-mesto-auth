@@ -1,18 +1,11 @@
 .header__logo {
-  align-self: flex-start;
-  max-width: 142px;
-  margin: 0;
+    width: 142px;
+    height: 33px;
 }
 
-@media screen and (max-width: 1023px) {
-  .header__logo {
-    padding-left: 28px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header__logo {
-    padding-bottom: 31px;
-    max-width: 104px;
-  }
+@media (max-width: 650px) {
+    .header__logo {
+        width: 103px;
+        height: 25px;
+    }
 }
